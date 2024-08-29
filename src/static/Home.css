@@ -1,0 +1,42 @@
+.HomeGreeting {
+	margin-top: 10rem;
+	padding: 5rem;
+	border-radius: 1rem;
+	background-color: #480980;
+	color: #f0f2f5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.Start {
+	background-color: #8a8dff;
+}
+
+.Start:hover {
+	color: #080957;
+	background-color: white;
+}
+
+
+
+.Logo {
+	content: url('./Jobly-logo.png');
+	height: 10rem;
+	padding: auto;
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('./office-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.65; 
+    z-index: -1; 
+}

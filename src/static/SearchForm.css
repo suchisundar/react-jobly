@@ -1,0 +1,12 @@
+.container {
+	margin-top: 1.5rem;
+}
+
+.Search {
+	background-color: #080957;
+	border-color: white;
+}
+
+.Search:hover {
+	background-color: #8a8dff;
+}
